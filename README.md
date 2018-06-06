@@ -1,7 +1,10 @@
 # rpi3stretchiot
 How to setup Raspberry pi 3 with Raspbian stretch
+
 with Apache2, mysql/mariadb, php7.0, phpmyadmin, node-red
+
 sudo apt-get update #update repo 
+
 sudo apt-get upgrade -y #install new repo versions
 sudo apt-get install mariadb-server mariadb-client -y #install sql database
 sudo apt-get install apache2 php7.0 libapache2-mod-7.0 php7.0-mysql phpmyadmin -y  
